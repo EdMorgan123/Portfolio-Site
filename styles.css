@@ -1,0 +1,30 @@
+h1 {
+    margin: auto;
+    color: green;
+    width: max-content;
+}
+
+h2 {
+    margin: auto;
+    width: max-content;
+}
+
+.item-description {
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.item-completed:checked + .item-description {
+    text-decoration: line-through;
+    background: grey;
+    
+}
+
+#addTask {
+    cursor: pointer;
+    font-weight: bold;
+    color: gold;
+    background: black;
+    padding: 8px;
+}
