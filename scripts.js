@@ -33,7 +33,15 @@ function updateItem(item, key, value) {
 }
 
 function refreshList() {
-    //TODO sort items
+    items.sort((a,b)) => {
+        if (a.completed) {
+            return -1;
+        }
+
+        if (b,completed) {
+            return - 1;
+        }
+    }
 
     ITEMS_CONTAINER.innerHTML = "";
 
@@ -57,6 +65,8 @@ function refreshList() {
     }
 }
 
+
 ADD_BUTTON.addEventListener("click", () => {
     addItem();
 });
+

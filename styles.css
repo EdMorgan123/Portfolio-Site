@@ -21,7 +21,7 @@ h2 {
     
 }
 
-#addTask {
+button {
     cursor: pointer;
     font-weight: bold;
     color: gold;
